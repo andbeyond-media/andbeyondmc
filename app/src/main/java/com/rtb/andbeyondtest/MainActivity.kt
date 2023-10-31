@@ -7,15 +7,15 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.LoadAdError
-import com.rtb.andbeyondmedia.banners.BannerAdSize
-import com.rtb.andbeyondmedia.banners.BannerAdView
-import com.rtb.andbeyondmedia.common.AdRequest
-import com.rtb.andbeyondmedia.common.AdTypes
-import com.rtb.andbeyondmedia.intersitial.InterstitialAd
-import com.rtb.andbeyondmedia.nativeformat.NativeAdManager
-import com.rtb.andbeyondmedia.rewarded.RewardedAd
-import com.rtb.andbeyondmedia.rewardedinterstitial.RewardedInterstitialAd
-import com.rtb.andbeyondmedia.sdk.BannerAdListener
+import com.rtb.andbeyondmc.banners.BannerAdSize
+import com.rtb.andbeyondmc.banners.BannerAdView
+import com.rtb.andbeyondmc.common.AdRequest
+import com.rtb.andbeyondmc.common.AdTypes
+import com.rtb.andbeyondmc.intersitial.InterstitialAd
+import com.rtb.andbeyondmc.nativeformat.NativeAdManager
+import com.rtb.andbeyondmc.rewarded.RewardedAd
+import com.rtb.andbeyondmc.rewardedinterstitial.RewardedInterstitialAd
+import com.rtb.andbeyondmc.sdk.BannerAdListener
 import com.rtb.andbeyondtest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), BannerAdListener {

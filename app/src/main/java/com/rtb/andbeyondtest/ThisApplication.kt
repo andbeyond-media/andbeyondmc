@@ -7,9 +7,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
-import com.rtb.andbeyondmedia.appopen.AppOpenAdManager
-import com.rtb.andbeyondmedia.sdk.AndBeyondMedia
-import com.rtb.andbeyondmedia.sdk.FullScreenContentCallback
+import com.rtb.andbeyondmc.appopen.AppOpenAdManager
+import com.rtb.andbeyondmc.sdk.AndBeyondMedia
+import com.rtb.andbeyondmc.sdk.FullScreenContentCallback
 
 class ThisApplication : Application() {
 

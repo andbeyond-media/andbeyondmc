@@ -5,8 +5,8 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.rtb.andbeyondmedia.common.AdRequest
-import com.rtb.andbeyondmedia.sdk.BannerAdListener
+import com.rtb.andbeyondmc.common.AdRequest
+import com.rtb.andbeyondmc.sdk.BannerAdListener
 import com.rtb.andbeyondtest.databinding.BoxLayoutBinding
 
 class BoxAdapter(private val context: Context, private val boxes: List<String>) : RecyclerView.Adapter<BoxAdapter.MyViewHolder>() {
